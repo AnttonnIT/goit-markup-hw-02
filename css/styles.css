@@ -11,11 +11,13 @@ a {
   color: #212121;
   text-decoration: none;
 }
+
 .contact-header {
   color: #757575;
 }
 header li a:hover,
-header li a:focus {
+header li a:focus,
+.active {
   color: #2196f3;
 }
 .address-footer li a:hover,
@@ -48,6 +50,7 @@ header ul li {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-transform: uppercase;
   color: #fff;
 }
 .cap .btn {
@@ -59,10 +62,7 @@ header ul li {
   background-color: #2196f3;
   cursor: pointer;
 }
-.feature,
-.about {
-  background-color: #f5f5f5;
-}
+
 .feature h3 {
   font-size: 14px;
   font-weight: 700;
@@ -104,7 +104,6 @@ footer {
 .address-footer {
   color: #fff;
   font-style: normal;
-  font-weight: 400;
   line-height: 1.71;
 }
 .contact-footer {
@@ -143,8 +142,8 @@ footer {
   font-weight: 700;
   line-height: 2;
   color: #212121;
+  letter-spacing: 0.06em;
 }
 .our-projects p {
-  font-size: 14px;
   line-height: 1.875;
 }
